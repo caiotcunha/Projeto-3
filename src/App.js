@@ -20,7 +20,7 @@ export default function App() {
      <div className="App">
           <Navbar className="navbar, align-items-start">
             <Container>
-            <Nav className="flex-column justify-content-center">
+            <Nav className="flex-column">
               <Nav.Link href="#home"><img src={home} alt="home"></img></Nav.Link>
               <Nav.Link href="#games"><img src={games} alt="games"></img></Nav.Link>
               <Nav.Link href="#count"><img src={count} alt="count"></img></Nav.Link>

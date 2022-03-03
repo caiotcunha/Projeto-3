@@ -36,10 +36,16 @@ label{
   color: white;
 }
 .navbar {
+  align-items: start;
   background: #333333;
-  width: 10%;
+  width: 11vh;
   height: 100vh;
 }
+
+.nav-link {
+  padding-top: 32px;
+}
+
 .xx {
   position: absolute;
   bottom: 0;
@@ -53,6 +59,7 @@ h1 {
   font-style: normal;
   font-weight: 275;
   font-size: 48px;
+  /* line-height: 72px; */
   padding-left: 40px;
 
   color: #D9D9D9;

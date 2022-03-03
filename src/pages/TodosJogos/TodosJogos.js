@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <>
         <h1>Todos os jogos</h1>
-        <Table idUsuario={2}></Table>
+        <Table></Table>
         </>
     );
   }
