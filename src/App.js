@@ -1,7 +1,7 @@
 import './App.css';
 // import {Routes,Route,Link} from 'react-router-dom'
-// import Pg1 from './pages/Pagina1'
-// import Pg2 from './pages/Pagina2'
+// import Pg1 from './pages/Login/Login'
+// import Pg2 from './pages/Cadastro/Cadastro'
 import './App.css';
 import home from './images/home.svg';
 import games from './images/games.svg';
@@ -20,7 +20,7 @@ export default function App() {
      <div className="App">
           <Navbar className="navbar, align-items-start">
             <Container>
-            <Nav className="flex-column justify-content-center">
+            <Nav className="flex-column">
               <Nav.Link href="#home"><img src={home} alt="home"></img></Nav.Link>
               <Nav.Link href="#games"><img src={games} alt="games"></img></Nav.Link>
               <Nav.Link href="#count"><img src={count} alt="count"></img></Nav.Link>

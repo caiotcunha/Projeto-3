@@ -30,30 +30,28 @@ label{
   color: white;
 }
 .App {
-  background-color: #000;
+  background-color: #252525;
   min-height: 100vh;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
 .navbar {
+  align-items: start;
   background: #333333;
-  /* position: absolute;
-  justify-content: center; */
-  width: 10%;
+  width: 11vh;
   height: 100vh;
 }
+
+.nav-link {
+  padding-top: 32px;
+}
+
 .xx {
   position: absolute;
   bottom: 0;
 }
 h1 {
   position: absolute;
-  /* width: 292px; */
-  /* height: 66px; */
   left: 152px;
   top: 30px;
 

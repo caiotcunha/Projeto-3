@@ -5,8 +5,8 @@ import Table from "../../components/Table/Table";
 export default function Home() {
     return (
         <>
-            <h1>Meus os jogos</h1>
-            <Table idUsuario={2}></Table>
+        <h1>Todos os jogos</h1>
+        <Table></Table>
         </>
     );
   }
