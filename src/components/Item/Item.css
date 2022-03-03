@@ -8,3 +8,12 @@
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
 }
+.genero {
+  padding:3%;
+  padding-right: 12%;
+  padding-left: 12%;
+  margin:3%;
+  background: #2B008D;
+  border-radius: 4px;
+  display: inline;
+}
