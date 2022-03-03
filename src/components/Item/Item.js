@@ -12,7 +12,7 @@ export default function Item(props) {
                 <div class="col-3">{props.titulo}</div>
                 <div class="col-2">R${props.preco}</div>
                 <div class="col-4">
-                    <div class="bd-highlight mb-3 flex-row d-inline-flex">
+                    <div class=" col-4 bd-highlight mb-3 flex-row d-inline-flex">
                         {props.genero.map(a => <div class="genero">{a}</div>)}
                     </div>
                 </div>
