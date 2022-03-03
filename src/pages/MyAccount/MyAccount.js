@@ -1,0 +1,59 @@
+import "./MyAccount.css";
+import ModalEmail from "./ModalEmail/ModalEmail";
+import { useState } from "react";
+import ModalSenha from "./ModalSenha/ModalSenha";
+import React from "react";
+
+export default function MyAccount() {
+  const [openModalEmail, setOpenModalEmail] = useState(false);
+  const [openModalSenha, setOpenModalSenha] = useState(false);
+
+  return (
+    <>
+      <h1 style={{ color: "#D9D9D9", marginLeft: "30px" }}>MINHA CONTA</h1>
+
+      <div className="forms">
+        <label className="labele">Nome</label>
+        <input 
+            className="input" 
+            type="text" 
+            placeholder="John Doe" />
+        <label className="labele">Email</label>
+
+        <input
+          className="input"
+          type="text"
+          placeholder="john.doe@gmail.com "
+        />
+      </div>
+
+      <div>
+        <button
+          className="botao"
+          onClick={() => {
+            if (openModalSenha === false) {
+              setOpenModalEmail(true);
+            }
+          }}
+        >
+          Editar Email
+        </button>
+
+        {openModalEmail && <ModalEmail closeModal={setOpenModalEmail} />}
+
+        <button
+          className="botao"
+          onClick={() => {
+            if (openModalEmail === false) {
+              setOpenModalSenha(true);
+            }
+          }}
+        >
+          Trocar Senha
+        </button>
+
+        {openModalSenha && <ModalSenha closeModal={setOpenModalSenha} />}
+      </div>
+    </>
+  );
+}
