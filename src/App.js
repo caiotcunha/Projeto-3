@@ -1,7 +1,7 @@
 import './App.css';
 import {Routes,Route,Link} from 'react-router-dom'
-import Pg1 from './pages/Pagina1'
-import Pg2 from './pages/Pagina2'
+import Pg1 from './pages/Login/Login'
+import Pg2 from './pages/Cadastro/Cadastro'
 import './App.css';
 import home from './images/home.svg';
 import games from './images/games.svg';

@@ -1,13 +1,12 @@
 import React from "react";
-import "./pagescss/Pagina1.css"
+import "./Login.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Routes,Route,Link} from 'react-router-dom'
-import Pg2 from './Pagina2'
+import {Link} from 'react-router-dom'
 
 
-export default function Pagina1(){
+export default function Login(){
     return(
         <div id="Pg1" class ="bg-dark d-flex justify-content-center align-items-center" >
             <div class="d-flex flex-column mb-1">
