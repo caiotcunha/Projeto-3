@@ -1,5 +1,5 @@
 import React from "react";
-import "./paginascss/Pagina1.css"
+import "./pagescss/Pagina1.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button'
 import 'bootstrap/dist/css/bootstrap.min.css'
