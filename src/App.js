@@ -1,7 +1,7 @@
 import './App.css';
-import {Routes,Route,Link} from 'react-router-dom'
-import Pg1 from './pages/Pagina1'
-import Pg2 from './pages/Pagina2'
+// import {Routes,Route,Link} from 'react-router-dom'
+// import Pg1 from './pages/Pagina1'
+// import Pg2 from './pages/Pagina2'
 import './App.css';
 import home from './images/home.svg';
 import games from './images/games.svg';
@@ -10,7 +10,7 @@ import out from './images/out.svg';
 import Home from './pages/Home/Home';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button'
+// import Button from 'react-bootstrap/Button'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 

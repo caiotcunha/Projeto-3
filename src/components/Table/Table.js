@@ -22,20 +22,6 @@ export default function Table() {
                     <div class="col"><img src={remove} alt="out"></img></div>
                 </div>
                 <div class="add">Adicionar um Jogo<img src={add} alt="out"></img></div>
-                {/* <div class="game row">
-                    <div class="col-2">Dar</div>
-                    <div class="col-2">15</div>
-                    <div class="col-2">sous</div>
-                    <div class="col-1"><img src={edit} alt="out"></img></div>
-                    <div class="col-1"><img src={remove} alt="out"></img></div>
-                </div>
-                <div class="game row">
-                    <div class="col-2">Dar</div>
-                    <div class="col-2">15</div>
-                    <div class="col-2">sous</div>
-                    <div class="col-1"><img src={edit} alt="out"></img></div>
-                    <div class="col-1"><img src={remove} alt="out"></img></div>
-                </div>  */}
             </div>
         </>
     );
