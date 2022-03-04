@@ -37,10 +37,6 @@ export default function App() {
           </Routes>
 
       </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 481f5ee5c74a02e4881c4db1adc3a9ba57afeec1
     </>
   );
 }
