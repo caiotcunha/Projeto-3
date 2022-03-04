@@ -3,10 +3,30 @@ import ModalEmail from "../../components/ModalEmail/ModalEmail";
 import { useState } from "react";
 import ModalSenha from "../../components/ModalSenha/ModalSenha";
 import React from "react";
+import Criar_Usuario from "../../Requests/Usuario/Criar_Usuario";
+import Logar from "../../Requests/Usuario/Logar";
 
 export default function MyAccount() {
   const [openModalEmail, setOpenModalEmail] = useState(false);
   const [openModalSenha, setOpenModalSenha] = useState(false);
+
+  function cadastrar (){
+    const body = {
+      nome: 'zezin90',
+      email: 'zezin90@gmail.com',
+      senha: '12345',
+    }
+    Criar_Usuario(body);
+  }
+
+  function handleLogar (){
+    const corpo = {
+      email: 'marcelomrad@gmail.com',
+      senha: '123456',
+    }
+    Logar(corpo);
+    
+  }
 
   return (
     <>
@@ -46,6 +66,14 @@ export default function MyAccount() {
         </button>
 
         {openModalSenha && <ModalSenha closeModal={setOpenModalSenha} />}
+
+        <button onClick={cadastrar}  >
+          cadastrar
+        </button>
+
+        <button onClick= {handleLogar}>
+          logar
+        </button>
       </div>
     </>
   );

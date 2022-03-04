@@ -11,21 +11,21 @@ export default function ModalEmail({ closeModal }) {
 
         <div className="body"></div>
 
-        <label className="labele">Senha Atual</label>
+        <label className="labeleSenha">Senha Atual</label>
         <input
-            className="inpute"
+            className="inputeSenha"
             type="password"
             name="senhaAtual" />
 
-        <label className="labele">Nova Senha</label>
+        <label className="labeleSenha">Nova Senha</label>
         <input
-            className="inpute"
+            className="inputeSenha"
             type="password"
             name="newSenha" />
 
-        <label className="labele">Confirmar nova senha</label>
+        <label className="labeleSenha">Confirmar nova senha</label>
         <input
-            className="inpute"
+            className="inputeSenha"
             type="password"
             name="ConfirmarSenha" />
 

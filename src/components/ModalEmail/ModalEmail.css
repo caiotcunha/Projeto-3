@@ -11,8 +11,8 @@
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     flex-direction: column;
-    left: 25%;
-    top: 25%;
+    left: 35%;
+    top: 23%;
 }
 
 .modalBackground{
@@ -51,8 +51,8 @@
 .modalContainerEmail .body{
 
     display:flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     font-size: 24px;
     text-align: center;
 }
@@ -67,8 +67,9 @@
     font-size: 24px;
 
     line-height: 40px;
-    margin-top: 12px;
-    margin-right:190px ;
+    margin-top: 10px;
+    margin-right:178px ;
+    margin-bottom: 0px;
     justify-content: left;
     display: flex;
 
@@ -111,6 +112,6 @@
 }
 
 
-.cancelButton{
+#cancelButton{
     background-color: #904949;
 }

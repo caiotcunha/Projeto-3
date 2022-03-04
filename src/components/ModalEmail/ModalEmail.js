@@ -19,7 +19,7 @@ export default function ModalEmail({ closeModal }) {
         <div className="footer">
           <button
             onClick={() => {closeModal(false);}}
-            className="cancelButton"
+            id="cancelButton"
           >
             Cancelar
           </button>
