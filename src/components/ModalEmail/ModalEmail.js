@@ -7,21 +7,19 @@ const portalRoot = document.getElementById("portal-root");
 export default function ModalEmail({ closeModal }) {
   return ReactDOM.createPortal(
     <div className="modalBackground">
-      <div className="modalContainer">
+      <div className="modalContainerEmail">
         <div className="title">
           <h3 className="titulo">Editar Email</h3>
         </div>
-        
+
         <div className="body"></div>
         <label className="labele">Novo Email</label>
         <input className="inpute" type="text" name="newEmail" />
 
         <div className="footer">
           <button
-            onClick={() => {
-              closeModal(false);
-            }}
-            id="cancelButton"
+            onClick={() => {closeModal(false);}}
+            className="cancelButton"
           >
             Cancelar
           </button>

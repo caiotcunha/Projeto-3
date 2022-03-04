@@ -7,6 +7,7 @@ import account from './images/count.svg';
 import out from './images/out.svg';
 import Home from './pages/Home/Home';
 import MyAccount from './pages/MyAccount/MyAccount'
+import Games from './pages/Games/Games'
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -32,11 +33,14 @@ export default function App() {
           <Routes >
             <Route path='/account' element = {<MyAccount/>} />
             <Route path='/home' element = {<Home/>} />
+            <Route path='/games' element = {<Games/>} />
           </Routes>
 
-          
       </div>
+<<<<<<< HEAD
+=======
 
+>>>>>>> 481f5ee5c74a02e4881c4db1adc3a9ba57afeec1
     </>
   );
 }

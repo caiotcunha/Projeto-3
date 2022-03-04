@@ -15,6 +15,7 @@ export default function Table(props) {
                     <div class="col-3">Gênero</div>
                     <div class="col add">Adicionar um Jogo <img src={add} alt="out"></img></div>
                 </div>
+
                 <Item preco={20} titulo={'Teste'} genero={['terror','ação']} />
                 <Item preco={20} titulo={'Teste'} genero={['terror','ação']} />
                 <div class="add">Adicionar um Jogo <img src={add} alt="out"></img></div>

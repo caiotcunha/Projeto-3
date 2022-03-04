@@ -14,9 +14,9 @@ export default function MyAccount() {
 
       <div className="forms">
         <label className="labele">Nome</label>
-        <input 
-            className="input" 
-            type="text" 
+        <input
+            className="input"
+            type="text"
             placeholder="John Doe" />
         <label className="labele">Email</label>
 
@@ -27,14 +27,10 @@ export default function MyAccount() {
         />
       </div>
 
-      <div>
+      <div >
         <button
           className="botao"
-          onClick={() => {
-            if (openModalSenha === false) {
-              setOpenModalEmail(true);
-            }
-          }}
+          onClick={() => { if (!openModalSenha) setOpenModalEmail(true); }}
         >
           Editar Email
         </button>
@@ -43,11 +39,8 @@ export default function MyAccount() {
 
         <button
           className="botao"
-          onClick={() => {
-            if (openModalEmail === false) {
-              setOpenModalSenha(true);
-            }
-          }}
+          style={{top: "45%", marginTop: "30px"}}
+          onClick={() => { if (!openModalEmail) setOpenModalSenha(true);}}
         >
           Trocar Senha
         </button>
