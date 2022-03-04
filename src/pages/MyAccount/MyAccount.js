@@ -1,7 +1,7 @@
 import "./MyAccount.css";
-import ModalEmail from "./ModalEmail/ModalEmail";
+import ModalEmail from "../../components/ModalEmail/ModalEmail";
 import { useState } from "react";
-import ModalSenha from "./ModalSenha/ModalSenha";
+import ModalSenha from "../../components/ModalSenha/ModalSenha";
 import React from "react";
 
 export default function MyAccount() {
@@ -10,7 +10,7 @@ export default function MyAccount() {
 
   return (
     <>
-      <h1 style={{ color: "#D9D9D9", marginLeft: "30px" }}>MINHA CONTA</h1>
+      <h1 className = 'conta'>MINHA CONTA</h1>
 
       <div className="forms">
         <label className="labele">Nome</label>

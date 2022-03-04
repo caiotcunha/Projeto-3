@@ -9,7 +9,6 @@ import Home from './pages/Home/Home';
 import MyAccount from './pages/MyAccount/MyAccount'
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Button from 'react-bootstrap/Button'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
@@ -22,7 +21,7 @@ export default function App() {
             <Nav className="flex-column">
               <Nav.Link href="/home" ><img src={home} alt="home"></img ></Nav.Link>
               <Nav.Link href="/games"><img src={games} alt="games"></img></Nav.Link>
-              <Nav.Link href="/count" ><img src={account} alt="count"></img></Nav.Link>
+              <Nav.Link href="/account" ><img src={account} alt="count"></img></Nav.Link>
               <Nav.Link className="xx" href="#out">
                 <img src={out} alt="out"/>
               </Nav.Link>
@@ -31,13 +30,13 @@ export default function App() {
           </Navbar>
 
           <Routes >
-            <Route path='/count' element = {<MyAccount/>} />
+            <Route path='/account' element = {<MyAccount/>} />
             <Route path='/home' element = {<Home/>} />
           </Routes>
 
           
       </div>
-    {/* <Pg1></Pg1> */}
+
     </>
   );
 }
