@@ -1,18 +1,18 @@
-.modalContainer{
+.modalContainerEmail{
+    display:flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
     width: 420px;
     height: 300px;
     background-color: #252525;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     flex-direction: column;
-    display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    margin: 80px auto 0 auto;
-    margin-left: 400px;
-    margin-top: 100px;
-    
+    left: 25%;
+    top: 25%;
 }
 
 .modalBackground{
@@ -25,11 +25,12 @@
 }
 
 
-.modalContainer .title{
-    
+.modalContainerEmail .title{
+
+
     width: 420px;
     height: 79px;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +40,7 @@
 
 }
 
-.modalContainer .title .titulo{
+.modalContainerEmail .title .titulo{
     font-family: Poppins;
     font-style: normal;
     color: #D9D9D9;
@@ -47,8 +48,8 @@
     font-weight: 275;
 }
 
-.modalContainer .body{
-    
+.modalContainerEmail .body{
+
     display:flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +71,7 @@
     margin-right:190px ;
     justify-content: left;
     display: flex;
-   
+
 }
 
 .inpute{
@@ -89,14 +90,14 @@
     border-radius: 4px;
 }
 
-.modalContainer .footer{
+.modalContainerEmail .footer{
     flex:10%;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 
-.modalContainer .footer button{
+.modalContainerEmail .footer button{
     width: 140px;
     height: 35px;
     margin: 10px;
@@ -110,6 +111,6 @@
 }
 
 
-#cancelButton{
+.cancelButton{
     background-color: #904949;
 }
